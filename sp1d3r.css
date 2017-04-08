@@ -1,0 +1,508 @@
+/* css configuration file for homepage(error.html) by _sp1d3r-ba */
+
+
+@font-face { font-family: font; src: url('font.TTF'); }
+/*no scroll bar for chrome*/
+::-webkit-scrollbar { display: none; }
+
+body {
+  margin: 0 0 0 0;
+  background-color: grey;  
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 14px;
+  font-family: font;
+  color: lightblue;
+}
+
+#me {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  font-size: 9px;
+  color: green;
+  opacity: 1;
+  -webkit-animation: linkan 40s infinite;
+  animation: linkan 40s infinite;
+
+}
+
+/* widnow settings */
+#window {
+  float: left;
+  width: 800px;
+  height: 500px;
+  box-shadow: 7px 7px #000000;
+  margin-top: 11%;
+  margin-left: 17%;
+  background-color: darkblue;  
+  border: 1px dotted lightblue;
+  /*box-shadow: 2px 2px grey;*/
+}
+
+#title-bar {
+  float: left;
+  width: 98%;
+  height: 37px;
+  
+   padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  /*border: 1px dotted lightblue;*/
+  background-color: darkblue;
+   
+}
+
+#title-icon {
+  float: left;
+  width: 23px;
+  height: 23px;
+  /*background-color: #0059ee;*/
+  
+   padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  border: 1px dotted lightblue;
+  background-color: darkblue;
+   
+}
+
+#title {
+  float: left;
+  width: 79%;
+  height: 23px;  
+  padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  border: 1px dotted lightblue;
+  background-color: darkblue;  
+  font-size: 27px;
+  text-shadow: 1px 1px darkblue;
+  text-align: center;
+  /*color: darkgreen;*/
+  /*float: left;*/
+  /*color: white;*/
+
+   
+}
+
+#minimize {
+  float: left;
+  width: 23px;
+  height: 23px;
+  /*background-color: #0059ee;*/
+  
+   padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  border: 1px dotted lightblue;
+  background-color: darkblue;
+}
+
+#maximize {
+  float: left;
+  width: 23px;
+  height: 23px;
+  /*background-color: #0059ee;*/
+  
+   padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  border: 1px dotted lightblue;
+  background-color: darkblue;
+}
+
+#close {
+ float: left;
+  width: 23px;
+  height: 23px;
+  /*background-color: #0059ee;*/
+  
+   padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  border: 1px dotted lightblue;
+  background-color: darkblue;
+}
+
+#toolbox-meni {
+  float: left;
+  width: 98%;
+  height: 27px;
+  
+  padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  /*border: 1px dotted lightblue;*/
+  background-color: darkblue;
+ 
+  
+
+  
+}
+#toolbox-meni-item {
+  float: left;
+  width: 73px;
+  height: 15px;
+  text-align: center;
+  
+  padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  border: 1px dotted lightblue;
+  background-color: darkblue;
+  /*color: red;*/
+  
+}
+
+#toolbox {
+  float: left;
+  width: 98%;
+  height: 85px;
+  border: 1px solid darkblue;
+  background-color: #f1f1ec;
+  padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+ /* border: 1px dotted lightblue;*/
+  background-color: darkblue;
+  /*color: yellow;*/
+  
+}
+
+#toolbox-item {
+  float: left;
+  width: 73px;
+  height: 73px;
+  
+  padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  border: 1px dotted lightblue;
+  background-color: darkblue;
+  color: red;
+  
+  
+  text-align: center;
+
+}
+
+#toolimg1 {  
+  float: left;
+  width: 27px;
+  height: 27px;
+  
+    /*border: 1px dotted lightblue;*/
+
+  padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 21px;
+ /* border: 1px dotted lightblue;*/
+ 
+  /*color: yellow;*/
+ 
+  background-image: url("block.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#toolimg2 {  
+  float: left;
+  width: 27px;
+  height: 27px;
+  
+    /*border: 1px dotted lightblue;*/
+
+  padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 21px;
+ /* border: 1px dotted lightblue;*/
+ 
+  /*color: yellow;*/
+ 
+  background-image: url("block.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#toolimg3 {  
+  float: left;
+  width: 27px;
+  height: 27px;
+  
+    /*border: 1px dotted lightblue;*/
+
+  padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 21px;
+ /* border: 1px dotted lightblue;*/
+ 
+  /*color: yellow;*/
+ 
+  background-image: url("block.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#toolimg4 {  
+  float: left;
+  width: 27px;
+  height: 27px;
+  
+    /*border: 1px dotted lightblue;*/
+
+  padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 21px;
+ /* border: 1px dotted lightblue;*/
+ 
+  /*color: yellow;*/
+ 
+  background-image: url("block.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#toolimg5 {  
+  float: left;
+  width: 27px;
+  height: 27px;
+  
+    /*border: 1px dotted lightblue;*/
+
+  padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 21px;
+ /* border: 1px dotted lightblue;*/
+ 
+  /*color: yellow;*/
+ 
+  background-image: url("block.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#toolimg6 {  
+  float: left;
+  width: 27px;
+  height: 27px;
+  
+    /*border: 1px dotted lightblue;*/
+
+  padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 21px;
+ /* border: 1px dotted lightblue;*/
+ 
+  /*color: yellow;*/
+ 
+  background-image: url("block.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#toolbox-item1 {  
+  float: left;
+  width: 40%;
+  height: 40px;
+  /*background-color: red;*/
+}
+#tooltxt1 {
+  
+}
+#tooltxt2 {
+  
+}
+#tooltxt3 {
+ 
+}
+#tooltxt4 {
+  
+}
+#tooltxt5 {
+  
+}
+#tooltxt6 {
+}
+
+
+
+#address-bar {
+  float: left;
+  width: 98%;
+  height: 25px;
+  
+  padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  /*border: 1px dotted lightblue;*/
+  background-color: darkblue;
+ /* color: yellow;*/
+}
+
+#address-name {
+  float: left;
+  width: 70px;
+  height: 13px;
+  padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  border: 1px dotted lightblue;
+  background-color: darkblue;
+  
+  /*color: yellow;*/
+  text-align: center;
+  
+}
+
+#address-path-all {
+  float: left;
+  width: 87%;
+  height: 13px;
+  
+  padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  border: 1px dotted lightblue;
+  background-color: darkblue;
+  
+  /*color: yellow;*/
+  text-align: left;
+}
+
+#address-path-icon {
+  float: left;
+  width: 20px;
+  height: 13px;
+  
+   padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  border: 1px dotted lightblue;
+  background-color: darkblue;
+  
+  /*color: yellow;*/
+  text-align: left;
+}
+
+#address-path-name {
+  float: left;
+  width: 90%;
+   height: 13px;
+  
+   padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  border: 1px dotted lightblue;
+  background-color: darkblue;
+  
+  /*color: yellow;*/
+  text-align: left;
+}
+
+#iamboss {
+  float: left;
+  width: 98%;
+  height: 207px;
+  
+  padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  /*border: 1px dotted lightblue;*/
+  background-color: darkblue;
+}
+
+#left-main-sidebar {
+  float: left; 
+  width: 180px;
+  height: 197px;
+  
+ padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  border: 1px dotted lightblue;
+  background-color: darkblue;
+  
+  
+  
+}
+
+#sidebar-items {
+  float: left;
+  width: 90%;
+  height: 28px;
+ padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  /*border: 1px dotted lightblue;*/
+  background-color: darkblue;
+   text-align: center;
+}
+
+#sidebar-item-icon1 {
+  float: left;
+  width: 13px;
+  height: 13px;
+  
+  padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  border: 1px dotted lightblue;
+  background-color: darkblue;
+}
+
+#sidebar-item-text1 {
+  float: left;
+  width: 74%;
+  height: 13px;
+  
+  padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  border: 1px dotted lightblue;
+  background-color: darkblue;
+  text-align: center;
+}
+
+#right-main-window {
+  float: left;
+  width: 570px;
+  height: 197px;
+  
+  padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  border: 1px dotted lightblue;
+  background-color: darkblue;
+  
+}
+
+#left-window {
+  float: left;
+  width: 271px;
+  height: 185px;
+  padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  /*border: 1px dotted lightblue;*/
+  background-color: darkblue;
+}
+
+#right-window {
+  float: left;
+  width: 271px;
+  height: 185px;
+  padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  /*border: 1px dotted lightblue;*/
+  background-color: darkblue;
+}
+
+#icons-all {
+  float: left;
+  width: 117px;
+  height: 13px;
+  
+  text-align: left;
+ padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  /*border: 1px dotted lightblue;*/
+  background-color: darkblue;
+}
+
+
+
+#status-bar1 {
+  float: left;
+  width: 98%;
+  height: 13px;  
+  
+  padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  border: 1px dotted lightblue;
+  background-color: darkblue;
+  color: grey;
+  text-align: left;
+  font-size: 14px;
+}
+#status-bar2 {
+  float: left;
+  width: 98%;
+  height: 15px;  
+  
+  padding: 3px 3px 3px 3px;
+  margin: 3px 3px 3px 3px;
+  border: 1px dotted lightblue;
+  background-color: darkblue;
+  color: darkred;
+  text-align: right;
+  font-size: 13px;
+}
